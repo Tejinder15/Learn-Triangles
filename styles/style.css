@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+}
+
+header {
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0.4rem 0.6rem;
+  background-color: #533a71;
+}
+
+header h1 {
+  color: #fdfffc;
+}
+
+nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fdfffc;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+main {
+  height: 74vh;
+}
+
+main h1 {
+  padding: 0.6rem;
+}
+
+.input-label p {
+  font-size: larger;
+  margin: 0.5rem;
+}
+
+.input-text {
+  font-size: 14px;
+  padding: 0.6rem 1rem;
+  margin: 0.6rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+
+.btn-check {
+  background: #533a71;
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: 1rem auto;
+  display: block;
+}
+
+.output {
+  font-size: x-large;
+  margin: 1rem;
+  color: black;
+}
+
+footer {
+  height: 12vh;
+}
+
+.social-handles {
+  width: 15%;
+  padding: 0.6rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.social-handles .scm {
+  color: #533a71;
+  font-size: 1.6rem;
+}
